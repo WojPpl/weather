@@ -5,10 +5,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/gdansk")
-public class Gdansk extends HttpServlet {
+@WebServlet("/lodz")
+public class Lodz extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.sendRedirect("gdansk.jsp");
+        response.sendRedirect("lodz.jsp");
     }
 }

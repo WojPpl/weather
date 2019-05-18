@@ -12,4 +12,52 @@
     <servlet-name>gdansk</servlet-name>
     <url-pattern>/gdansk</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>katowice</servlet-name>
+    <servlet-class>servlets.Katowice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>katowice</servlet-name>
+    <url-pattern>/katowice</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>krakow</servlet-name>
+    <servlet-class>servlets.Krakow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>krakow</servlet-name>
+    <url-pattern>/krakow</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>lodz</servlet-name>
+    <servlet-class>servlets.Lodz</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lodz</servlet-name>
+    <url-pattern>/lodz</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>poznan</servlet-name>
+    <servlet-class>servlets.Poznan</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>poznan</servlet-name>
+    <url-pattern>/poznan</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>warszawa</servlet-name>
+    <servlet-class>servlets.Warszawa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>warszawa</servlet-name>
+    <url-pattern>/warszawa</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>wroclaw</servlet-name>
+    <servlet-class>servlets.Wroclaw</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>wroclaw</servlet-name>
+    <url-pattern>/wroclaw</url-pattern>
+  </servlet-mapping>
 </web-app>
